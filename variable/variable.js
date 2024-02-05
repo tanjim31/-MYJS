@@ -16,7 +16,7 @@ b=11; // let is reassign
 console.log(b);
 
 //const variable
-const c =15; // const is not redeclare
+const c = 15; // const is not redeclare
 //c=16; // const is not reassign
 console.log(c);
 
