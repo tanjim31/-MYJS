@@ -64,6 +64,10 @@ let i=10;
 let t = e>i ? 'True' : 'False';
 console.log(t);
 
+// operator precedence
+//  () , {}, []
+// /, *, -, +
+
 
 
 
