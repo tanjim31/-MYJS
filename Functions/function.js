@@ -7,7 +7,7 @@ myFunction();
 
 
 //with parameter
-function myFunction2(name, age, dateOfBirth=1997){ //this is takes parameter
+function myFunction2(name, age, dateOfBirth=1997){ //It takes parameter
     console.log('Hello ' + name + ' Your age is ' + age + ' Your date of birth is ' + dateOfBirth);
     console.log(`Hello ${name} Your age is ${age} Your date of birth is ${dateOfBirth}`); // both are same
 }
@@ -22,20 +22,26 @@ function isSubscribed(){
 document.getElementById('btn').addEventListener('click', isSubscribed);
 
 
-// 3. Automatic (Self-Invoked) Invocation
+// 3. Automatic (Self-Invoked) Invocation (eta parameter chara kaj korena)
 (function(message){
     console.log('I am self invoking function', message);
 })('Hello');
 
 
-// 4. Function Expression
+
+// 4. Function Expression (ei function er name lagena)
 let maths=function(a,b){
+    console.log(k);
     return a*b;
+  
 }
+
 console.log(maths(2,4));
+var k=5;
 
 
-// 5. Anonymous Function
+
+// 5. Anonymous Function  (without calling and function name dea lagena)
 let numbers= [4,5,6,7,8];
 let sqrNumber= numbers.map(function(num){
     return num*num;
@@ -52,7 +58,7 @@ console.log(maths(2,4));
 */
 
 let add = (x,y)=> // no need function name 
-    x+y; // no need return keyword
+    x+y;           // no need return keyword
 
 console.log(add(5,4));
 

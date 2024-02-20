@@ -63,12 +63,12 @@ console.log(objFinalSpread);
 
 // 2.Constructor Object
 
-function Person(first, last){ //Constructor
+function Person(first, last){ //Constructor name always capital and constructor e always object thekei always argument value send korte hoy
     this.firstName= first,
     this.lastName = last
 }
 
-const person1 = new Person('Rahat', 'Ahmed'); 
+const person1 = new Person('Rahat', 'Ahmed');  // object
 person1.age=26;
 console.log(person1);
 const person2 = new Person('Rifat', 'Ahmed'); 

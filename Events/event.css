@@ -1,0 +1,16 @@
+body{
+    text-align: center;
+}
+button{
+    background-color: red;
+    padding: 20px 45px;
+    color: white;
+    border-radius: 10px;
+    border: 0;
+    cursor: pointer;
+    font-size: 18px;
+    transition: 0.5s;
+}
+button:hover{
+    background-color: #262626;
+}
