@@ -67,6 +67,10 @@ console.log(url.replace("%20", "-"));
 const names = "Rahat Ahmed Tanjim";
 console.log(names.split());     // array length 1
 console.log(names.split(" "));   // array length 3
+console.log(names.split(""));  //single char
+console.log(names.split("", 1)); // 1 index value
+console.log(names.split("", 4)); // 0 theke 4 nmbr index value
+console.log(names.split("", -5)); //negative index not applicable
 
 
 
